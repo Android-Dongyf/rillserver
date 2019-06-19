@@ -1,3 +1,12 @@
+#说在前面的话 
+1、该框架并非本人设计 详细设计思路可以探讨也可以咨询原作者 链接：https://github.com/cloudfreexiao/RillServer
+2、在原版本基础上修改如下几点：
+   a、完成运行问题的修复，保证基础demo能跑通
+   b、测试mysql数据库的使用
+   c、修改用户快速登录问题
+   d、修改room创建模式，改为lua service pool模式，仿照agent pool修改
+   e、框架细微调整
+
 # RillServer
 RillServer是一套基于skynet的通用游戏服务端框架，适合大作战、棋牌、RPG、策略等多种类型的游戏服务器。设计初衷是为了极大的提高开发效率，减少游戏开发成本。
 
